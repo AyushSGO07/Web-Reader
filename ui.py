@@ -7,11 +7,10 @@ load_dotenv()
 
 st.set_page_config(
     page_title="Web Reader Summarizer",
-    page_icon="📖",
     layout="centered"
 )
 
-st.title("📖 Web Reader Summarizer")
+st.title("Web Reader Summarizer")
 st.markdown("Enter a website URL below to get a structured summary using Gemini AI.")
 
 # Input fields
